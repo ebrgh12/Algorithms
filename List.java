@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 class Solution {
+// Created by Girish 
 
   static void getShortestUniqueSubstring(char[] arr, String str)
   {
