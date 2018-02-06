@@ -28,7 +28,7 @@ Planned Data Structure
 
 12.BFS
 
-#Algorithms
+Algorithms
 
 1.Greedy Algorithms
 
@@ -36,7 +36,7 @@ Planned Data Structure
 
 3.Bottom-up Approach
 
-#Graphs
+Graphs
 
 1. Min Spanning tree
 
