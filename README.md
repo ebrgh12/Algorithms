@@ -42,3 +42,7 @@ Graphs
 
 2. Shortest path
 
+3. BFS
+
+4. DFS
+
