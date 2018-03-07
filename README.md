@@ -36,6 +36,10 @@ Algorithms
 
 3.Bottom-up Approach
 
+4.Backtracking.
+
+
+
 Graphs
 
 1. Min Spanning tree
