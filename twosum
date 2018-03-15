@@ -1,0 +1,32 @@
+//Two sum problem using 2 for loops and returning it using a List.
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class twoSum {
+	public static void main(String[] args) {
+		int [] arr= {2, 7, 2,11, 15};
+		int target=9;
+		List<Integer> result=new ArrayList<Integer>();
+		result=twoSum(arr,target);
+		for(int i:result) {
+			System.out.print(i);
+		}
+	}
+	public static List<Integer> twoSum(int[] nums, int target) {
+        int sum=0;
+        List<Integer> result=new ArrayList<Integer>();
+        for(int i=0;i<nums.length;i++){
+            for(int j=i+1;j<nums.length;j++){
+                sum=sum+nums[i]+nums[j];
+                if(sum==target){
+                //    System.out.println( i +" "+ j ); 
+                    result.add(i);
+                    result.add(j);
+                }
+            }
+        }
+        return result;
+    }
+
+}
