@@ -28,6 +28,8 @@ Planned Data Structure
 
 12.BFS
 
+13.Trie
+
 Algorithms
 
 1.Greedy Algorithms
