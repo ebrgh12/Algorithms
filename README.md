@@ -1,6 +1,5 @@
 # Algorithms
 
-A wide range of Algorithms to solve various problems
 
 Planned Data Structure
 
