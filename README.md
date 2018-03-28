@@ -29,7 +29,7 @@ Planned Data Structure
 
 13.Trie
 
-Algorithms
+Algorithm Approach
 
 1.Greedy Algorithms
 
