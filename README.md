@@ -51,3 +51,7 @@ Graphs
 
 4. DFS
 
+5.Travelling salesman 
+
+6.Knapsack
+
