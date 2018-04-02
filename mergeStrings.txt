@@ -1,0 +1,50 @@
+static String mergeStrings(String a, String b) {
+        
+        // To get the substring  
+        if(a.length()<b.length()){
+            //b substring to append at the end.
+           String bSub=b.substring(a.length(),b.length());
+           //Trimmed string b
+            b=b.substring(0,a.length());
+            
+            char[] a1=a.toCharArray();
+            char[] b1=b.toCharArray();
+            StringBuffer sb = new StringBuffer(40); 
+            String s=null;
+            for(int i=0;i<a.length();i++){
+            s = sb.append(a1[i]).append(b1[i]).toString();
+            }
+           s=s+bSub;
+            return s;
+    }
+        else if(a.length()>b.length()){
+            //a substring to append at the end.
+          String  aSub=a.substring(b.length(),a.length());
+            //Trimmed string a          
+            a=a.substring(0,b.length());
+            char[] a1=a.toCharArray();
+            char[] b1=b.toCharArray();
+            
+             StringBuffer sb = new StringBuffer(40); 
+            String s=null;
+            for(int i=0;i<a.length();i++){
+            s = sb.append(a1[i]).append(b1[i]).toString();
+            }
+           s=s+aSub;
+            return s;
+        
+        }
+        else{
+            char[] a1=a.toCharArray();
+            char[] b1=b.toCharArray();
+            StringBuffer sb = new StringBuffer(40); 
+            String s=null;
+            for(int i=0;i<a.length();i++){
+            s = sb.append(a1[i]).append(b1[i]).toString();
+            }
+           
+            return s;
+        }
+       
+    }
+

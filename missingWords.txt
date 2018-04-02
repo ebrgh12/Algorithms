@@ -1,0 +1,33 @@
+static String[] missingWords(String s, String t) {
+        String s1[]=s.split(" ");
+        String t1[]=t.split(" ");
+        
+        if(s1.length>t1.length){
+            int len= s1.length-t1.length;
+            String[] missing = new String[len];
+            int c=0;
+            for(int i=0;i<s1.length;i++){
+                int flag=0;
+                for(int j=0;j<t1.length;j++){
+                if(s1[i].equals(t1[j])){
+                    flag=1;
+                    t1[j]="";
+                    break;
+                }
+            }
+            if(flag==0){
+                missing[c++]=s1[i];
+            }
+        }
+        return missing;    
+        }
+        else if(s1.length==t1.length){
+            return s1;
+        }
+        else 
+        {
+            return null;
+        }
+            
+        
+    }
