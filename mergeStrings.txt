@@ -1,4 +1,4 @@
-static String mergeStrings(String a, String b) {
+public static String mergeStrings(String a, String b) {
         
         // To get the substring  
         if(a.length()<b.length()){
