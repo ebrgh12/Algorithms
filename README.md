@@ -1,8 +1,6 @@
 # Algorithms
 
 
-Planned Data Structure
-
 1.Arrays
 
 2.Strings
